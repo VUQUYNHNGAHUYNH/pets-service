@@ -16,7 +16,7 @@
         @apply bg-primary text-white hover:bg-primary-hover;
     }
     .btn-orange {
-        @apply bg-orange text-white hover:bg-orange-hover;
+        @apply bg-orange text-white hover:bg-orange-hover hover:opacity-90;
       }
     .btn-outline {
         @apply bg-transparent border-2 hover:bg-transparent;

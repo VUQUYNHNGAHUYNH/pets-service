@@ -10,7 +10,7 @@ const Navbar = () => {
   const [navMobile, setNavMobile] = useState(false);
 
   return (
-    <div className="py-3 fixed w-full right-0 left-0 z-10 transition duration-300 shadow-md">
+    <div className="bg-cream py-3 px-2 fixed w-full right-0 left-0 z-10 transition duration-300">
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <Image
@@ -24,7 +24,7 @@ const Navbar = () => {
         <div
           className={` ${
             navMobile
-              ? "lg:hidden max-h-[280px] flex flex-col justify-center items-center shadow-xl fixed left-0 w-full h-full top-[80px] overflow-hidden transition-all"
+              ? "bg-cream lg:hidden max-h-[280px] flex flex-col justify-center items-center shadow-xl fixed left-0 w-full h-full top-[80px] overflow-hidden transition-all"
               : "hidden lg:flex gap-x-6"
           } `}
         >

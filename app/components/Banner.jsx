@@ -4,6 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div
+      id="#Home"
       className="pt-32 pb-20 w-[90%] mx-auto lg:pt-0 min-h-[400px] lg:min-h-[850px] max-w-[1440px]
      flex flex-col justify-center space-y-10 lg:space-y-0 lg:flex-row lg:gap-x-4 items-center"
     >

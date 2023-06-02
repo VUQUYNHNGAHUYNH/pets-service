@@ -4,16 +4,13 @@
 
 @layer base {
     body {
-        @apply text-primary bg-cream;
+        @apply text-primary;
       }
-    .h2{
-        @apply text-3xl font-medium leading-tight text-gray-800;
-    }
     .btn {
         @apply h-[60px] cursor-pointer flex justify-center items-center py-3 px-8 rounded-full text-xl transition-all;
     }
     .btn-primary {
-        @apply bg-primary text-white hover:bg-primary-hover;
+        @apply bg-primary text-white hover:bg-primary-hover px-6 py-3 rounded-full;
     }
     .btn-orange {
         @apply bg-orange text-white hover:bg-orange-hover hover:opacity-90;
@@ -22,4 +19,18 @@
         @apply bg-transparent border-2 hover:bg-transparent;
       }
 
-}
+      .serviceSlider .swiper-button-prev,
+      .serviceSlider .swiper-button-next {
+        @apply bg-orange text-white top-[95%] w-[80px] h-[40px] rounded-[50%] z-20;
+      }
+      .serviceSlider .swiper-button-prev {
+        @apply left-[23%] md:left-[35%] lg:left-[40%];
+      }
+      .serviceSlider .swiper-button-next {
+        @apply right-[23%] md:right-[35%] lg:right-[40%];
+      }
+      .serviceSlider .swiper-button-prev:after,
+  .serviceSlider .swiper-button-next:after {
+    @apply text-lg;
+  }
+    }    

@@ -47,7 +47,10 @@ const Breeds = () => {
   };
 
   return (
-    <div className="py-6 bg-orange overflow-hidden flex flex-col lg:flex-row">
+    <div
+      id="Dogs"
+      className="py-6 pt-32 bg-orange overflow-hidden flex flex-col lg:flex-row"
+    >
       <div className="hidden xl:flex xl:w-[30%] xl:pl-[160px]">
         <Image
           src="/img/walking-dog.png"

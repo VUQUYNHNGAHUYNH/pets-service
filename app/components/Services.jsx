@@ -35,7 +35,7 @@ export const Services = () => {
   return (
     <div
       id="#Services"
-      className="min-h-[850px] py-12 pt-32 bg-teal bg-center bg-no-repeat bg-cover"
+      className="min-h-[850px] py-12 px-4 pt-32 bg-teal bg-center bg-no-repeat bg-cover"
     >
       <div className="mx-auto container h-[850px]">
         <div className="text-3xl lg:text-4xl text-center mb-8 text-cream font-semibold">
